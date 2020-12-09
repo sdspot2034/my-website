@@ -6,23 +6,27 @@
 </head>
 
 <body>
+
   <!-- LANDING PAGE -->
   <div class="header">
   	<p>Hi, there! I'm </p>
   	<h1 class = "display" style="font-size:90px">Shreyan Das</h1>
     <p>An ML enthusiast. A devout follower of all-things-tech. A Software Engineer in the making.</p>
+    <div class="container">
+      <a href="#about"><div class="arrow"> </div></a>
+    </div>
   </div>
 
   <!-- NAVIGATION MENU -->
   <ul class="nav">
     <li><a href="#">Home</a></li>
-    <li><a href="#">About</a></li>
-    <li><a href="#">Work</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#work">Work</a></li>
     <li><a href="#">Contact</a></li>
   </ul>
 
   <!-- ABOUT ME -->
-  <div class="strip-a">
+  <div class="strip-a" id="about">
     <div class="clearfix">
       <h1>About Me</h1>
       <img src="images/profile-pic.png" style="float: right; width: 25%; border-radius: 8px; margin: 0px 20px;">
@@ -32,10 +36,20 @@
     </div>
   </div>
 
-    <div class="strip-b">
+  <!-- QUOTE OF SWAMI VIVEKANANDA -->
+  <div class="strip-b">
     <span style="color: #606060; font-family: 'Archivo',sans-serif; font-size: 72px;">“</span>
     <span style="color: white; font-family: 'Archivo',sans-serif; font-size: 60px; font-style: italic;">Arise, awake and stop not until the goal is reached.</span>
     <span style="color: #606060; font-family: 'Archivo',sans-serif; font-size: 72px;">”</span>
     <p style="color: #E0CA3C;"> - Swami Vivekananda </p>
   </div>
+
+  <!-- WORK -->
+  <div class="strip-a" id="work">
+    <h1>My Work</h1>
+    <p>This is where I will insert tabs about my work with links to relevant pages.</p>
+    <p><a href="#">See all ... </a></p>
+  </div>
+
+
 </body>
