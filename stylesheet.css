@@ -24,6 +24,16 @@ p {
   font-family: "Poppins", sans-serif;
 }
 
+a {
+	color: #E0CA3C;
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+a:hover {
+	color: #FF5666;
+}
+
 .header {
 	width: 100%;
 	height: 86.9878vh;
